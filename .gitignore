@@ -4,6 +4,7 @@ npm-debug.log
 dist/
 #/.gitignore
 #dist
+run/
 
 /config/crazybet.choopaoo.com.key
 /config/crazybet.choopaoo.com.crt

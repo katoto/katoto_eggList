@@ -18,7 +18,6 @@ class msgListController extends Controller {
             status: "100",
             message: "ok"
         }
-        console.log(movie)
         ctx.body = data
     }
 }

@@ -4,12 +4,12 @@ const Service = require('egg').Service;
 class msgListService extends Service {
     async iqiyi_movie() {
         const ctx = this.ctx;
-        // 表示在数据库中查找
-        return ctx.model.MsgList_movie.find()
+        // 表示在数据库中查找  
+        return ctx.model.MsgListMovie.find()
     }
     async iqiyi_music() {
         const ctx = this.ctx;
-        return ctx.model.MsgList_music.find()
+        return ctx.model.MsgListMusic.find()
     }
 }
 

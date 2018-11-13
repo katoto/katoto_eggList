@@ -86,27 +86,27 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-session\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-security\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-jsonp\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-onerror\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-i18n\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-watcher\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-schedule\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-multipart\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-development\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-logrotator\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-static\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-view\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-view-ejs\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-mongoose\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg\\config\\locales",
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\config\\locales"
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-session\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-jsonp\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-onerror\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-i18n\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-watcher\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-schedule\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-multipart\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-development\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-logrotator\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-static\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-view\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-view-ejs\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-mongoose\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\locales",
+        "D:\\H5project\\2018\\katoto_eggList\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -116,14 +116,14 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "D:\\H5project\\2018\\eggDemo2\\egg-example\\logs\\egg-example\\egg-schedule.log"
+        "file": "D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example\\egg-schedule.log"
       }
     },
     "multipart": {
@@ -137,7 +137,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\ADMINI\\x7e1\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg-example",
+      "tmpdir": "C:\\Users\\turbo\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg-example",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -160,7 +160,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "D:\\H5project\\2018\\eggDemo2\\egg-example\\app\\public",
+      "dir": "D:\\H5project\\2018\\katoto_eggList\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -169,7 +169,7 @@
     },
     "view": {
       "root": [
-        "D:\\H5project\\2018\\eggDemo2\\egg-example\\app\\view"
+        "D:\\H5project\\2018\\katoto_eggList\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -179,7 +179,7 @@
       }
     },
     "ejs": {
-      "root": "D:\\H5project\\2018\\eggDemo2\\egg-example\\app\\view",
+      "root": "D:\\H5project\\2018\\katoto_eggList\\app\\view",
       "cache": false,
       "debug": false,
       "compileDebug": true,
@@ -237,9 +237,9 @@
         "egg-bin": "^4.9.0"
       }
     },
-    "baseDir": "D:\\H5project\\2018\\eggDemo2\\egg-example",
-    "HOME": "C:\\Users\\Administrator",
-    "rundir": "D:\\H5project\\2018\\eggDemo2\\egg-example\\run",
+    "baseDir": "D:\\H5project\\2018\\katoto_eggList",
+    "HOME": "C:\\Users\\turbo",
+    "rundir": "D:\\H5project\\2018\\katoto_eggList\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -270,7 +270,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "D:\\H5project\\2018\\eggDemo2\\egg-example\\logs\\egg-example",
+      "dir": "D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -328,8 +328,8 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 7001,
-        "hostname": ""
+        "port": 4561,
+        "hostname": "127.0.0.1"
       }
     },
     "clusterClient": {
@@ -362,8 +362,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-session",
+      "from": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -375,8 +375,8 @@
         "session"
       ],
       "env": [],
-      "from": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-security",
+      "from": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security",
       "version": "2.4.0"
     },
     "jsonp": {
@@ -388,8 +388,8 @@
         "security"
       ],
       "env": [],
-      "from": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-jsonp",
+      "from": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -401,8 +401,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-onerror",
+      "from": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -412,8 +412,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-i18n",
+      "from": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -423,8 +423,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-watcher",
+      "from": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -434,8 +434,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-schedule",
+      "from": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-schedule",
       "version": "3.4.0"
     },
     "multipart": {
@@ -447,8 +447,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-multipart",
+      "from": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-multipart",
       "version": "2.3.0"
     },
     "development": {
@@ -462,8 +462,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-development",
+      "from": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-development",
       "version": "2.4.1"
     },
     "logrotator": {
@@ -475,8 +475,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-logrotator",
+      "from": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-logrotator",
       "version": "3.0.4"
     },
     "static": {
@@ -486,8 +486,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-static",
+      "from": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -497,8 +497,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-view",
+      "from": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-view",
       "version": "2.1.0"
     },
     "ejs": {
@@ -510,8 +510,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\H5project\\2018\\eggDemo2\\egg-example\\config\\plugin.js",
-      "path": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-view-ejs",
+      "from": "D:\\H5project\\2018\\katoto_eggList\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-view-ejs",
       "version": "2.0.0"
     },
     "mongoose": {
@@ -521,8 +521,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\H5project\\2018\\eggDemo2\\egg-example\\config\\plugin.js",
-      "path": "D:\\H5project\\2018\\eggDemo2\\egg-example\\node_modules\\egg-mongoose",
+      "from": "D:\\H5project\\2018\\katoto_eggList\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-mongoose",
       "version": "3.1.1"
     }
   }

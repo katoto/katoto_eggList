@@ -6,6 +6,6 @@ module.exports = app => {
         name: { type: String },
         url: { type: String }
     })
-    return mongoose.model('MsgList', msgListSchema, 'movie');
+    return mongoose.model('MsgListMusic', msgListSchema, 'music');
 }
 

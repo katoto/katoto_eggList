@@ -1231,3 +1231,169 @@ name: "unhandledExceptionError"
 pid: 15428
 hostname: xiezg-pc
 
+2018-11-13 21:11:14,106 ERROR 11800 [-/127.0.0.1/-/5ms GET /iqiyi] nodejs.TypeError: Cannot read property 'find' of undefined
+    at msgListService.iqiyi_movie (D:\H5project\2018\katoto_eggList\app\service\msgList.js:8:40)
+    at msgListController.iqiyi (D:\H5project\2018\katoto_eggList\app\controller\msgList.js:11:47)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\H5project\2018\katoto_eggList\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 11800
+hostname: LAPTOP-236D5NH2
+
+2018-11-13 21:13:21,276 ERROR 10436 [-/127.0.0.1/-/23ms GET /iqiyi] nodejs.TypeError: Cannot read property 'find' of undefined
+    at msgListService.iqiyi_movie (D:\H5project\2018\katoto_eggList\app\service\msgList.js:9:40)
+    at msgListController.iqiyi (D:\H5project\2018\katoto_eggList\app\controller\msgList.js:11:47)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\H5project\2018\katoto_eggList\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 10436
+hostname: LAPTOP-236D5NH2
+
+2018-11-13 21:14:06,818 ERROR 10436 [-/127.0.0.1/-/2ms GET /iqiyi] nodejs.TypeError: Cannot read property 'find' of undefined
+    at msgListService.iqiyi_movie (D:\H5project\2018\katoto_eggList\app\service\msgList.js:9:40)
+    at msgListController.iqiyi (D:\H5project\2018\katoto_eggList\app\controller\msgList.js:11:47)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\H5project\2018\katoto_eggList\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 10436
+hostname: LAPTOP-236D5NH2
+
+2018-11-13 21:14:36,234 ERROR 15656 [-/127.0.0.1/-/16ms GET /iqiyi] nodejs.TypeError: Cannot read property 'find' of undefined
+    at msgListService.iqiyi_movie (D:\H5project\2018\katoto_eggList\app\service\msgList.js:9:40)
+    at msgListController.iqiyi (D:\H5project\2018\katoto_eggList\app\controller\msgList.js:11:47)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\H5project\2018\katoto_eggList\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 15656
+hostname: LAPTOP-236D5NH2
+
+2018-11-13 21:22:18,688 ERROR 11024 [-/127.0.0.1/-/16ms GET /iqiyi] nodejs.TypeError: Cannot read property 'find' of undefined
+    at msgListService.iqiyi_movie (D:\H5project\2018\katoto_eggList\app\service\msgList.js:10:40)
+    at msgListController.iqiyi (D:\H5project\2018\katoto_eggList\app\controller\msgList.js:11:47)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\H5project\2018\katoto_eggList\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 11024
+hostname: LAPTOP-236D5NH2
+
+2018-11-13 21:22:53,344 ERROR 15864 [-/127.0.0.1/-/23ms GET /iqiyi] nodejs.TypeError: Cannot read property 'find' of undefined
+    at msgListService.iqiyi_movie (D:\H5project\2018\katoto_eggList\app\service\msgList.js:10:40)
+    at msgListController.iqiyi (D:\H5project\2018\katoto_eggList\app\controller\msgList.js:11:47)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\H5project\2018\katoto_eggList\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 15864
+hostname: LAPTOP-236D5NH2
+
+2018-11-13 21:22:56,031 ERROR 15864 [-/127.0.0.1/-/12ms GET /iqiyi] nodejs.TypeError: Cannot read property 'find' of undefined
+    at msgListService.iqiyi_movie (D:\H5project\2018\katoto_eggList\app\service\msgList.js:10:40)
+    at msgListController.iqiyi (D:\H5project\2018\katoto_eggList\app\controller\msgList.js:11:47)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\H5project\2018\katoto_eggList\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 15864
+hostname: LAPTOP-236D5NH2
+
+2018-11-13 21:23:40,836 ERROR 9668 [-/127.0.0.1/-/300ms GET /iqiyi] nodejs.TypeError: Cannot read property 'find' of undefined
+    at msgListService.iqiyi_music (D:\H5project\2018\katoto_eggList\app\service\msgList.js:15:40)
+    at msgListController.iqiyi (D:\H5project\2018\katoto_eggList\app\controller\msgList.js:12:47)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9668
+hostname: LAPTOP-236D5NH2
+
+2018-11-13 21:24:34,326 ERROR 6236 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6236
+hostname: LAPTOP-236D5NH2
+

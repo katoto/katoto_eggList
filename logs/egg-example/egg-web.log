@@ -5974,3 +5974,379 @@
 2018-11-13 15:47:01,231 INFO 14364 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
 2018-11-13 15:47:01,231 INFO 14364 [egg-mongoose] instance[0] start successfully
 2018-11-13 15:47:01,240 INFO 14364 [egg:core] dump config after ready, 7ms
+2018-11-13 21:10:39,699 INFO 11800 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:10:39,747 INFO 11800 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:10:39,747 INFO 11800 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:10:39,747 INFO 11800 [egg-multipart] stream mode enable
+2018-11-13 21:10:40,496 INFO 11800 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:10:40,704 INFO 11800 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:10:40,710 INFO 11800 [egg-security] use csrf middleware
+2018-11-13 21:10:40,712 INFO 11800 [egg-security] use methodnoallow middleware
+2018-11-13 21:10:40,714 INFO 11800 [egg-security] use noopen middleware
+2018-11-13 21:10:40,716 INFO 11800 [egg-security] use nosniff middleware
+2018-11-13 21:10:40,717 INFO 11800 [egg-security] use xssProtection middleware
+2018-11-13 21:10:40,718 INFO 11800 [egg-security] use xframe middleware
+2018-11-13 21:10:40,720 INFO 11800 [egg-security] use dta middleware
+2018-11-13 21:10:40,720 INFO 11800 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:10:40,739 INFO 11800 [egg:core] dump config after load, 13ms
+2018-11-13 21:10:40,746 INFO 11800 [egg-mongoose] starting...
+2018-11-13 21:10:40,778 INFO 11800 [egg-watcher:application] watcher start success
+2018-11-13 21:10:40,840 INFO 11800 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:10:40,841 INFO 11800 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:10:40,856 INFO 11800 [egg:core] dump config after ready, 12ms
+2018-11-13 21:13:15,878 INFO 6828 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:13:15,926 INFO 6828 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:13:15,926 INFO 6828 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:13:15,926 INFO 6828 [egg-multipart] stream mode enable
+2018-11-13 21:13:16,566 INFO 6828 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:13:16,742 INFO 6828 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:13:16,746 INFO 6828 [egg-security] use csrf middleware
+2018-11-13 21:13:16,748 INFO 6828 [egg-security] use methodnoallow middleware
+2018-11-13 21:13:16,749 INFO 6828 [egg-security] use noopen middleware
+2018-11-13 21:13:16,751 INFO 6828 [egg-security] use nosniff middleware
+2018-11-13 21:13:16,752 INFO 6828 [egg-security] use xssProtection middleware
+2018-11-13 21:13:16,753 INFO 6828 [egg-security] use xframe middleware
+2018-11-13 21:13:16,754 INFO 6828 [egg-security] use dta middleware
+2018-11-13 21:13:16,754 INFO 6828 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:13:16,769 INFO 6828 [egg:core] dump config after load, 9ms
+2018-11-13 21:13:16,773 INFO 6828 [egg-mongoose] starting...
+2018-11-13 21:13:16,793 INFO 6828 [egg-watcher:application] watcher start success
+2018-11-13 21:13:16,859 INFO 6828 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:13:16,860 INFO 6828 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:13:16,872 INFO 6828 [egg:core] dump config after ready, 10ms
+2018-11-13 21:13:19,462 INFO 10436 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:13:19,520 INFO 10436 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:13:19,520 INFO 10436 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:13:19,522 INFO 10436 [egg-multipart] stream mode enable
+2018-11-13 21:13:20,512 INFO 10436 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:13:20,674 INFO 10436 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:13:20,678 INFO 10436 [egg-security] use csrf middleware
+2018-11-13 21:13:20,680 INFO 10436 [egg-security] use methodnoallow middleware
+2018-11-13 21:13:20,681 INFO 10436 [egg-security] use noopen middleware
+2018-11-13 21:13:20,683 INFO 10436 [egg-security] use nosniff middleware
+2018-11-13 21:13:20,684 INFO 10436 [egg-security] use xssProtection middleware
+2018-11-13 21:13:20,685 INFO 10436 [egg-security] use xframe middleware
+2018-11-13 21:13:20,686 INFO 10436 [egg-security] use dta middleware
+2018-11-13 21:13:20,686 INFO 10436 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:13:20,701 INFO 10436 [egg:core] dump config after load, 9ms
+2018-11-13 21:13:20,705 INFO 10436 [egg-mongoose] starting...
+2018-11-13 21:13:20,729 INFO 10436 [egg-watcher:application] watcher start success
+2018-11-13 21:13:20,793 INFO 10436 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:13:20,796 INFO 10436 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:13:20,821 INFO 10436 [egg:core] dump config after ready, 21ms
+2018-11-13 21:14:31,468 INFO 15656 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:14:31,542 INFO 15656 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:14:31,543 INFO 15656 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:14:31,543 INFO 15656 [egg-multipart] stream mode enable
+2018-11-13 21:14:32,339 INFO 15656 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:14:32,636 INFO 15656 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:14:32,644 INFO 15656 [egg-security] use csrf middleware
+2018-11-13 21:14:32,646 INFO 15656 [egg-security] use methodnoallow middleware
+2018-11-13 21:14:32,648 INFO 15656 [egg-security] use noopen middleware
+2018-11-13 21:14:32,650 INFO 15656 [egg-security] use nosniff middleware
+2018-11-13 21:14:32,651 INFO 15656 [egg-security] use xssProtection middleware
+2018-11-13 21:14:32,652 INFO 15656 [egg-security] use xframe middleware
+2018-11-13 21:14:32,653 INFO 15656 [egg-security] use dta middleware
+2018-11-13 21:14:32,653 INFO 15656 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:14:32,679 INFO 15656 [egg:core] dump config after load, 15ms
+2018-11-13 21:14:32,683 INFO 15656 [egg-mongoose] starting...
+2018-11-13 21:14:32,718 INFO 15656 [egg-watcher:application] watcher start success
+2018-11-13 21:14:32,788 INFO 15656 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:14:32,793 INFO 15656 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:14:32,820 INFO 15656 [egg:core] dump config after ready, 22ms
+2018-11-13 21:14:35,663 INFO 15896 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:14:35,871 INFO 15896 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:14:35,871 INFO 15896 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:14:35,872 INFO 15896 [egg-multipart] stream mode enable
+2018-11-13 21:14:36,856 INFO 15896 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:14:37,153 INFO 15896 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:14:37,164 INFO 15896 [egg-security] use csrf middleware
+2018-11-13 21:14:37,167 INFO 15896 [egg-security] use methodnoallow middleware
+2018-11-13 21:14:37,169 INFO 15896 [egg-security] use noopen middleware
+2018-11-13 21:14:37,172 INFO 15896 [egg-security] use nosniff middleware
+2018-11-13 21:14:37,174 INFO 15896 [egg-security] use xssProtection middleware
+2018-11-13 21:14:37,175 INFO 15896 [egg-security] use xframe middleware
+2018-11-13 21:14:37,180 INFO 15896 [egg-security] use dta middleware
+2018-11-13 21:14:37,180 INFO 15896 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:14:37,202 INFO 15896 [egg:core] dump config after load, 15ms
+2018-11-13 21:14:37,207 INFO 15896 [egg-mongoose] starting...
+2018-11-13 21:14:37,302 INFO 15896 [egg-watcher:application] watcher start success
+2018-11-13 21:14:37,343 INFO 15896 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:14:37,345 INFO 15896 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:14:37,367 INFO 15896 [egg:core] dump config after ready, 18ms
+2018-11-13 21:14:56,631 INFO 11024 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:14:56,685 INFO 11024 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:14:56,685 INFO 11024 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:14:56,686 INFO 11024 [egg-multipart] stream mode enable
+2018-11-13 21:14:57,355 INFO 11024 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:14:57,523 INFO 11024 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:14:57,527 INFO 11024 [egg-security] use csrf middleware
+2018-11-13 21:14:57,528 INFO 11024 [egg-security] use methodnoallow middleware
+2018-11-13 21:14:57,530 INFO 11024 [egg-security] use noopen middleware
+2018-11-13 21:14:57,532 INFO 11024 [egg-security] use nosniff middleware
+2018-11-13 21:14:57,532 INFO 11024 [egg-security] use xssProtection middleware
+2018-11-13 21:14:57,533 INFO 11024 [egg-security] use xframe middleware
+2018-11-13 21:14:57,535 INFO 11024 [egg-security] use dta middleware
+2018-11-13 21:14:57,535 INFO 11024 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:14:57,549 INFO 11024 [egg:core] dump config after load, 8ms
+2018-11-13 21:14:57,553 INFO 11024 [egg-mongoose] starting...
+2018-11-13 21:14:57,574 INFO 11024 [egg-watcher:application] watcher start success
+2018-11-13 21:14:57,632 INFO 11024 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:14:57,634 INFO 11024 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:14:57,661 INFO 11024 [egg:core] dump config after ready, 21ms
+2018-11-13 21:22:48,034 INFO 15864 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:22:48,113 INFO 15864 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:22:48,113 INFO 15864 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:22:48,113 INFO 15864 [egg-multipart] stream mode enable
+2018-11-13 21:22:48,834 INFO 15864 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:22:49,130 INFO 15864 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:22:49,136 INFO 15864 [egg-security] use csrf middleware
+2018-11-13 21:22:49,138 INFO 15864 [egg-security] use methodnoallow middleware
+2018-11-13 21:22:49,139 INFO 15864 [egg-security] use noopen middleware
+2018-11-13 21:22:49,142 INFO 15864 [egg-security] use nosniff middleware
+2018-11-13 21:22:49,144 INFO 15864 [egg-security] use xssProtection middleware
+2018-11-13 21:22:49,146 INFO 15864 [egg-security] use xframe middleware
+2018-11-13 21:22:49,147 INFO 15864 [egg-security] use dta middleware
+2018-11-13 21:22:49,147 INFO 15864 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:22:49,178 INFO 15864 [egg:core] dump config after load, 24ms
+2018-11-13 21:22:49,185 INFO 15864 [egg-mongoose] starting...
+2018-11-13 21:22:49,254 INFO 15864 [egg-watcher:application] watcher start success
+2018-11-13 21:22:49,291 INFO 15864 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:22:49,293 INFO 15864 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:22:49,306 INFO 15864 [egg:core] dump config after ready, 10ms
+2018-11-13 21:23:35,092 INFO 9668 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:23:35,185 INFO 9668 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:23:35,185 INFO 9668 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:23:35,186 INFO 9668 [egg-multipart] stream mode enable
+2018-11-13 21:23:35,876 INFO 9668 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:23:36,062 INFO 9668 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:23:36,066 INFO 9668 [egg-security] use csrf middleware
+2018-11-13 21:23:36,068 INFO 9668 [egg-security] use methodnoallow middleware
+2018-11-13 21:23:36,069 INFO 9668 [egg-security] use noopen middleware
+2018-11-13 21:23:36,071 INFO 9668 [egg-security] use nosniff middleware
+2018-11-13 21:23:36,073 INFO 9668 [egg-security] use xssProtection middleware
+2018-11-13 21:23:36,074 INFO 9668 [egg-security] use xframe middleware
+2018-11-13 21:23:36,075 INFO 9668 [egg-security] use dta middleware
+2018-11-13 21:23:36,075 INFO 9668 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:23:36,093 INFO 9668 [egg:core] dump config after load, 12ms
+2018-11-13 21:23:36,098 INFO 9668 [egg-mongoose] starting...
+2018-11-13 21:23:36,129 INFO 9668 [egg-watcher:application] watcher start success
+2018-11-13 21:23:36,184 INFO 9668 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:23:36,185 INFO 9668 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:23:36,199 INFO 9668 [egg:core] dump config after ready, 12ms
+2018-11-13 21:23:40,199 INFO 12864 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:23:40,248 INFO 12864 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:23:40,248 INFO 12864 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:23:40,249 INFO 12864 [egg-multipart] stream mode enable
+2018-11-13 21:23:41,014 INFO 12864 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:23:41,346 INFO 12864 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:23:41,351 INFO 12864 [egg-security] use csrf middleware
+2018-11-13 21:23:41,353 INFO 12864 [egg-security] use methodnoallow middleware
+2018-11-13 21:23:41,354 INFO 12864 [egg-security] use noopen middleware
+2018-11-13 21:23:41,357 INFO 12864 [egg-security] use nosniff middleware
+2018-11-13 21:23:41,360 INFO 12864 [egg-security] use xssProtection middleware
+2018-11-13 21:23:41,362 INFO 12864 [egg-security] use xframe middleware
+2018-11-13 21:23:41,363 INFO 12864 [egg-security] use dta middleware
+2018-11-13 21:23:41,363 INFO 12864 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:23:41,383 INFO 12864 [egg:core] dump config after load, 13ms
+2018-11-13 21:23:41,388 INFO 12864 [egg-mongoose] starting...
+2018-11-13 21:23:41,419 INFO 12864 [egg-watcher:application] watcher start success
+2018-11-13 21:23:41,489 INFO 12864 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:23:41,491 INFO 12864 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:23:41,506 INFO 12864 [egg:core] dump config after ready, 15ms
+2018-11-13 21:24:28,056 INFO 10624 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:24:28,107 INFO 10624 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:24:28,107 INFO 10624 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:24:28,108 INFO 10624 [egg-multipart] stream mode enable
+2018-11-13 21:24:28,804 INFO 10624 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:24:29,010 INFO 10624 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:24:29,017 INFO 10624 [egg-security] use csrf middleware
+2018-11-13 21:24:29,024 INFO 10624 [egg-security] use methodnoallow middleware
+2018-11-13 21:24:29,027 INFO 10624 [egg-security] use noopen middleware
+2018-11-13 21:24:29,032 INFO 10624 [egg-security] use nosniff middleware
+2018-11-13 21:24:29,033 INFO 10624 [egg-security] use xssProtection middleware
+2018-11-13 21:24:29,034 INFO 10624 [egg-security] use xframe middleware
+2018-11-13 21:24:29,037 INFO 10624 [egg-security] use dta middleware
+2018-11-13 21:24:29,037 INFO 10624 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:24:29,058 INFO 10624 [egg:core] dump config after load, 12ms
+2018-11-13 21:24:29,063 INFO 10624 [egg-mongoose] starting...
+2018-11-13 21:24:29,092 INFO 10624 [egg-watcher:application] watcher start success
+2018-11-13 21:24:29,151 INFO 10624 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:24:29,155 INFO 10624 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:24:29,178 INFO 10624 [egg:core] dump config after ready, 19ms
+2018-11-13 21:24:32,206 INFO 13052 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:24:32,326 INFO 13052 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:24:32,326 INFO 13052 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:24:32,326 INFO 13052 [egg-multipart] stream mode enable
+2018-11-13 21:24:33,543 INFO 13052 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:24:34,103 INFO 13052 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:24:34,134 INFO 13052 [egg-security] use csrf middleware
+2018-11-13 21:24:34,139 INFO 13052 [egg-security] use methodnoallow middleware
+2018-11-13 21:24:34,140 INFO 13052 [egg-security] use noopen middleware
+2018-11-13 21:24:34,145 INFO 13052 [egg-security] use nosniff middleware
+2018-11-13 21:24:34,161 INFO 13052 [egg-security] use xssProtection middleware
+2018-11-13 21:24:34,165 INFO 13052 [egg-security] use xframe middleware
+2018-11-13 21:24:34,169 INFO 13052 [egg-security] use dta middleware
+2018-11-13 21:24:34,170 INFO 13052 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:24:34,210 INFO 13052 [egg:core] dump config after load, 24ms
+2018-11-13 21:24:34,224 INFO 13052 [egg-mongoose] starting...
+2018-11-13 21:24:32,506 INFO 15900 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:24:32,597 INFO 15900 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:24:32,597 INFO 15900 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:24:32,598 INFO 15900 [egg-multipart] stream mode enable
+2018-11-13 21:24:33,960 INFO 15900 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:24:34,366 INFO 15900 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:24:34,375 INFO 15900 [egg-security] use csrf middleware
+2018-11-13 21:24:34,385 INFO 15900 [egg-security] use methodnoallow middleware
+2018-11-13 21:24:34,388 INFO 15900 [egg-security] use noopen middleware
+2018-11-13 21:24:34,392 INFO 15900 [egg-security] use nosniff middleware
+2018-11-13 21:24:34,394 INFO 15900 [egg-security] use xssProtection middleware
+2018-11-13 21:24:34,398 INFO 15900 [egg-security] use xframe middleware
+2018-11-13 21:24:34,400 INFO 15900 [egg-security] use dta middleware
+2018-11-13 21:24:34,400 INFO 15900 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:24:34,433 INFO 15900 [egg:core] dump config after load, 24ms
+2018-11-13 21:24:34,439 INFO 15900 [egg-mongoose] starting...
+2018-11-13 21:24:34,498 INFO 15900 [egg-watcher:application] watcher start success
+2018-11-13 21:24:34,533 INFO 15900 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:24:34,534 INFO 15900 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:24:34,554 INFO 15900 [egg:core] dump config after ready, 16ms
+2018-11-13 21:24:39,569 INFO 7664 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:24:39,734 INFO 7664 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:24:39,735 INFO 7664 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:24:39,736 INFO 7664 [egg-multipart] stream mode enable
+2018-11-13 21:24:40,574 INFO 7664 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:24:40,785 INFO 7664 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:24:40,791 INFO 7664 [egg-security] use csrf middleware
+2018-11-13 21:24:40,794 INFO 7664 [egg-security] use methodnoallow middleware
+2018-11-13 21:24:40,796 INFO 7664 [egg-security] use noopen middleware
+2018-11-13 21:24:40,798 INFO 7664 [egg-security] use nosniff middleware
+2018-11-13 21:24:40,799 INFO 7664 [egg-security] use xssProtection middleware
+2018-11-13 21:24:40,801 INFO 7664 [egg-security] use xframe middleware
+2018-11-13 21:24:40,802 INFO 7664 [egg-security] use dta middleware
+2018-11-13 21:24:40,802 INFO 7664 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:24:40,822 INFO 7664 [egg:core] dump config after load, 12ms
+2018-11-13 21:24:40,827 INFO 7664 [egg-mongoose] starting...
+2018-11-13 21:24:40,856 INFO 7664 [egg-watcher:application] watcher start success
+2018-11-13 21:24:40,922 INFO 7664 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:24:40,924 INFO 7664 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:24:40,941 INFO 7664 [egg:core] dump config after ready, 15ms
+2018-11-13 21:24:43,813 INFO 16180 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:24:43,895 INFO 16180 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:24:43,895 INFO 16180 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:24:43,895 INFO 16180 [egg-multipart] stream mode enable
+2018-11-13 21:24:44,692 INFO 16180 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:24:44,880 INFO 16180 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:24:44,885 INFO 16180 [egg-security] use csrf middleware
+2018-11-13 21:24:44,888 INFO 16180 [egg-security] use methodnoallow middleware
+2018-11-13 21:24:44,889 INFO 16180 [egg-security] use noopen middleware
+2018-11-13 21:24:44,892 INFO 16180 [egg-security] use nosniff middleware
+2018-11-13 21:24:44,893 INFO 16180 [egg-security] use xssProtection middleware
+2018-11-13 21:24:44,894 INFO 16180 [egg-security] use xframe middleware
+2018-11-13 21:24:44,895 INFO 16180 [egg-security] use dta middleware
+2018-11-13 21:24:44,895 INFO 16180 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:24:44,914 INFO 16180 [egg:core] dump config after load, 13ms
+2018-11-13 21:24:44,919 INFO 16180 [egg-mongoose] starting...
+2018-11-13 21:24:44,946 INFO 16180 [egg-watcher:application] watcher start success
+2018-11-13 21:24:45,032 INFO 16180 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:24:45,034 INFO 16180 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:24:45,061 INFO 16180 [egg:core] dump config after ready, 23ms
+2018-11-13 21:25:00,270 INFO 15536 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:25:00,331 INFO 15536 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:25:00,331 INFO 15536 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:25:00,331 INFO 15536 [egg-multipart] stream mode enable
+2018-11-13 21:25:00,952 INFO 15536 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:25:01,130 INFO 15536 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:25:01,135 INFO 15536 [egg-security] use csrf middleware
+2018-11-13 21:25:01,137 INFO 15536 [egg-security] use methodnoallow middleware
+2018-11-13 21:25:01,138 INFO 15536 [egg-security] use noopen middleware
+2018-11-13 21:25:01,140 INFO 15536 [egg-security] use nosniff middleware
+2018-11-13 21:25:01,141 INFO 15536 [egg-security] use xssProtection middleware
+2018-11-13 21:25:01,142 INFO 15536 [egg-security] use xframe middleware
+2018-11-13 21:25:01,143 INFO 15536 [egg-security] use dta middleware
+2018-11-13 21:25:01,143 INFO 15536 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:25:01,159 INFO 15536 [egg:core] dump config after load, 10ms
+2018-11-13 21:25:01,163 INFO 15536 [egg-mongoose] starting...
+2018-11-13 21:25:01,186 INFO 15536 [egg-watcher:application] watcher start success
+2018-11-13 21:25:01,255 INFO 15536 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:25:01,260 INFO 15536 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:25:01,281 INFO 15536 [egg:core] dump config after ready, 18ms
+2018-11-13 21:26:02,729 INFO 11708 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:26:02,790 INFO 11708 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:26:02,790 INFO 11708 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:26:02,791 INFO 11708 [egg-multipart] stream mode enable
+2018-11-13 21:26:03,839 INFO 11708 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:26:04,059 INFO 11708 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:26:04,065 INFO 11708 [egg-security] use csrf middleware
+2018-11-13 21:26:04,069 INFO 11708 [egg-security] use methodnoallow middleware
+2018-11-13 21:26:04,071 INFO 11708 [egg-security] use noopen middleware
+2018-11-13 21:26:04,078 INFO 11708 [egg-security] use nosniff middleware
+2018-11-13 21:26:04,079 INFO 11708 [egg-security] use xssProtection middleware
+2018-11-13 21:26:04,081 INFO 11708 [egg-security] use xframe middleware
+2018-11-13 21:26:04,083 INFO 11708 [egg-security] use dta middleware
+2018-11-13 21:26:04,083 INFO 11708 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:26:04,104 INFO 11708 [egg:core] dump config after load, 12ms
+2018-11-13 21:26:04,108 INFO 11708 [egg-mongoose] starting...
+2018-11-13 21:26:04,133 INFO 11708 [egg-watcher:application] watcher start success
+2018-11-13 21:26:04,192 INFO 11708 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:26:04,193 INFO 11708 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:26:04,206 INFO 11708 [egg:core] dump config after ready, 11ms
+2018-11-13 21:31:43,218 INFO 12656 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:31:43,365 INFO 12656 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:31:43,365 INFO 12656 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:31:43,366 INFO 12656 [egg-multipart] stream mode enable
+2018-11-13 21:31:44,564 INFO 12656 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:31:44,850 INFO 12656 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:31:44,858 INFO 12656 [egg-security] use csrf middleware
+2018-11-13 21:31:44,862 INFO 12656 [egg-security] use methodnoallow middleware
+2018-11-13 21:31:44,863 INFO 12656 [egg-security] use noopen middleware
+2018-11-13 21:31:44,867 INFO 12656 [egg-security] use nosniff middleware
+2018-11-13 21:31:44,869 INFO 12656 [egg-security] use xssProtection middleware
+2018-11-13 21:31:44,871 INFO 12656 [egg-security] use xframe middleware
+2018-11-13 21:31:44,873 INFO 12656 [egg-security] use dta middleware
+2018-11-13 21:31:44,873 INFO 12656 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:31:44,897 INFO 12656 [egg:core] dump config after load, 14ms
+2018-11-13 21:31:44,902 INFO 12656 [egg-mongoose] starting...
+2018-11-13 21:31:44,973 INFO 12656 [egg-watcher:application] watcher start success
+2018-11-13 21:31:45,003 INFO 12656 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:31:45,004 INFO 12656 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:31:45,018 INFO 12656 [egg:core] dump config after ready, 11ms
+2018-11-13 21:32:14,997 INFO 17244 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:32:15,093 INFO 17244 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:32:15,093 INFO 17244 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:32:15,094 INFO 17244 [egg-multipart] stream mode enable
+2018-11-13 21:32:15,915 INFO 17244 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:32:16,099 INFO 17244 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:32:16,105 INFO 17244 [egg-security] use csrf middleware
+2018-11-13 21:32:16,107 INFO 17244 [egg-security] use methodnoallow middleware
+2018-11-13 21:32:16,108 INFO 17244 [egg-security] use noopen middleware
+2018-11-13 21:32:16,110 INFO 17244 [egg-security] use nosniff middleware
+2018-11-13 21:32:16,111 INFO 17244 [egg-security] use xssProtection middleware
+2018-11-13 21:32:16,112 INFO 17244 [egg-security] use xframe middleware
+2018-11-13 21:32:16,114 INFO 17244 [egg-security] use dta middleware
+2018-11-13 21:32:16,114 INFO 17244 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:32:16,130 INFO 17244 [egg:core] dump config after load, 10ms
+2018-11-13 21:32:16,135 INFO 17244 [egg-mongoose] starting...
+2018-11-13 21:32:16,181 INFO 17244 [egg-watcher:application] watcher start success
+2018-11-13 21:32:16,216 INFO 17244 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:32:16,217 INFO 17244 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:32:16,230 INFO 17244 [egg:core] dump config after ready, 11ms
+2018-11-13 21:32:18,934 INFO 2572 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:32:18,987 INFO 2572 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:32:18,987 INFO 2572 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:32:18,988 INFO 2572 [egg-multipart] stream mode enable
+2018-11-13 21:32:19,670 INFO 2572 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:32:19,948 INFO 2572 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:32:19,953 INFO 2572 [egg-security] use csrf middleware
+2018-11-13 21:32:19,955 INFO 2572 [egg-security] use methodnoallow middleware
+2018-11-13 21:32:19,957 INFO 2572 [egg-security] use noopen middleware
+2018-11-13 21:32:19,959 INFO 2572 [egg-security] use nosniff middleware
+2018-11-13 21:32:19,960 INFO 2572 [egg-security] use xssProtection middleware
+2018-11-13 21:32:19,961 INFO 2572 [egg-security] use xframe middleware
+2018-11-13 21:32:19,963 INFO 2572 [egg-security] use dta middleware
+2018-11-13 21:32:19,963 INFO 2572 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:32:19,982 INFO 2572 [egg:core] dump config after load, 12ms
+2018-11-13 21:32:19,986 INFO 2572 [egg-mongoose] starting...
+2018-11-13 21:32:20,016 INFO 2572 [egg-watcher:application] watcher start success
+2018-11-13 21:32:20,070 INFO 2572 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:32:20,072 INFO 2572 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:32:20,086 INFO 2572 [egg:core] dump config after ready, 11ms

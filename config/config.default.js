@@ -19,6 +19,13 @@ module.exports = appInfo => {
             }
         }
     }
+    config.cluster = {
+        // 设置服务端口
+        listen: {
+            port: 4561,
+            hostname: "127.0.0.1"
+        }
+    }
     return config
 
 }
