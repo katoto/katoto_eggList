@@ -222,7 +222,9 @@
       "description": "",
       "main": "egg-example",
       "scripts": {
-        "dev": "egg-bin dev"
+        "dev": "egg-bin dev",
+        "start": "egg-scripts start --daemon --title=egg-server-showcase",
+        "stop": "egg-scripts stop"
       },
       "keywords": [],
       "author": "",

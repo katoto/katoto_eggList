@@ -180,7 +180,9 @@
     "description": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
     "main": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
-      "dev": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js"
+      "dev": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
+      "start": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js"
     },
     "keywords": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
     "author": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",

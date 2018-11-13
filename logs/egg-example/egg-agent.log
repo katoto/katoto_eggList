@@ -2387,3 +2387,13 @@
 2018-11-13 21:32:14,565 INFO 10056 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"D:\\H5project\\2018\\katoto_eggList\\config\\config.default.js","stat":{"dev":4129198428,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883581334,"size":670,"atimeMs":1542115934560.8003,"mtimeMs":1542115934560.8003,"ctimeMs":1542115934560.8003,"birthtimeMs":1542114373471.9392,"atime":"2018-11-13T13:32:14.561Z","mtime":"2018-11-13T13:32:14.561Z","ctime":"2018-11-13T13:32:14.561Z","birthtime":"2018-11-13T13:06:13.472Z"},"remove":false,"isDirectory":false,"isFile":true}
 2018-11-13 21:32:16,273 WARN 10056 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
 2018-11-13 21:32:20,094 WARN 10056 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-11-13 21:53:37,990 INFO 10800 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-11-13 21:53:38,156 INFO 10800 [egg:core] dump config after load, 10ms
+2018-11-13 21:53:38,236 INFO 10800 [egg-watcher] Start watching: ["D:\\H5project\\2018\\katoto_eggList\\app","D:\\H5project\\2018\\katoto_eggList\\config","D:\\H5project\\2018\\katoto_eggList\\mocks","D:\\H5project\\2018\\katoto_eggList\\mocks_proxy","D:\\H5project\\2018\\katoto_eggList\\app.js"]
+2018-11-13 21:53:38,236 INFO 10800 [egg-watcher] Start watching: "D:\\H5project\\2018\\katoto_eggList\\app"
+2018-11-13 21:53:38,237 INFO 10800 [egg-watcher] Start watching: "D:\\H5project\\2018\\katoto_eggList\\config"
+2018-11-13 21:53:38,238 INFO 10800 [egg-watcher] Start watching: "D:\\H5project\\2018\\katoto_eggList\\mocks"
+2018-11-13 21:53:38,238 INFO 10800 [egg-watcher] Start watching: "D:\\H5project\\2018\\katoto_eggList\\mocks_proxy"
+2018-11-13 21:53:38,238 INFO 10800 [egg-watcher] Start watching: "D:\\H5project\\2018\\katoto_eggList\\app.js"
+2018-11-13 21:53:38,240 INFO 10800 [egg-watcher:agent] watcher start success
+2018-11-13 21:53:38,266 INFO 10800 [egg:core] dump config after ready, 10ms

@@ -177,7 +177,9 @@
       "description": "",
       "main": "egg-example",
       "scripts": {
-        "dev": "egg-bin dev"
+        "dev": "egg-bin dev",
+        "start": "egg-scripts start --daemon --title=egg-server-showcase",
+        "stop": "egg-scripts stop"
       },
       "keywords": [],
       "author": "",
@@ -277,7 +279,7 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 6001,
+        "port": 4561,
         "hostname": "127.0.0.1"
       }
     },

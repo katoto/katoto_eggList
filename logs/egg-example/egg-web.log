@@ -6350,3 +6350,23 @@
 2018-11-13 21:32:20,070 INFO 2572 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
 2018-11-13 21:32:20,072 INFO 2572 [egg-mongoose] instance[0] start successfully
 2018-11-13 21:32:20,086 INFO 2572 [egg:core] dump config after ready, 11ms
+2018-11-13 21:53:40,985 INFO 808 [egg:logger] init all loggers with options: {"dir":"D:\\H5project\\2018\\katoto_eggList\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:53:41,096 INFO 808 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-13 21:53:41,096 INFO 808 [egg-schedule]: register schedule D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-13 21:53:41,097 INFO 808 [egg-multipart] stream mode enable
+2018-11-13 21:53:42,435 INFO 808 [egg-mongoose] connecting mongodb://47.96.234.59:27017/katoto
+2018-11-13 21:53:42,906 INFO 808 [egg-static] starting static serve /public/ -> D:\H5project\2018\katoto_eggList\app\public
+2018-11-13 21:53:42,914 INFO 808 [egg-security] use csrf middleware
+2018-11-13 21:53:42,918 INFO 808 [egg-security] use methodnoallow middleware
+2018-11-13 21:53:42,919 INFO 808 [egg-security] use noopen middleware
+2018-11-13 21:53:42,921 INFO 808 [egg-security] use nosniff middleware
+2018-11-13 21:53:42,923 INFO 808 [egg-security] use xssProtection middleware
+2018-11-13 21:53:42,926 INFO 808 [egg-security] use xframe middleware
+2018-11-13 21:53:42,928 INFO 808 [egg-security] use dta middleware
+2018-11-13 21:53:42,928 INFO 808 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:53:42,957 INFO 808 [egg:core] dump config after load, 19ms
+2018-11-13 21:53:42,968 INFO 808 [egg-mongoose] starting...
+2018-11-13 21:53:43,035 INFO 808 [egg-watcher:application] watcher start success
+2018-11-13 21:53:43,062 INFO 808 [egg-mongoose] mongodb://47.96.234.59:27017/katoto connected successfully
+2018-11-13 21:53:43,065 INFO 808 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:53:43,083 INFO 808 [egg:core] dump config after ready, 15ms

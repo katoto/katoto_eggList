@@ -28,3 +28,5 @@
 2018-11-13 21:10:40,867 INFO 6236 [Timer] D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-14 00:00:01.000
 2018-11-13 21:31:45,030 INFO 10056 [Timer] D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-11-14 00:00:00.000
 2018-11-13 21:31:45,031 INFO 10056 [Timer] D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-14 00:00:01.000
+2018-11-13 21:53:43,100 INFO 10800 [Timer] D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-11-14 00:00:00.000
+2018-11-13 21:53:43,102 INFO 10800 [Timer] D:\H5project\2018\katoto_eggList\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-14 00:00:01.000
