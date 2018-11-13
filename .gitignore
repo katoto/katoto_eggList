@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+.idea
+dist/
+#/.gitignore
+#dist
+
+/config/crazybet.choopaoo.com.key
+/config/crazybet.choopaoo.com.crt
+#server.js
+

@@ -1,0 +1,21 @@
+{
+    "name": "egg-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "egg-example",
+    "scripts": {
+        "dev": "egg-bin dev"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "egg": "^2.13.0",
+        "egg-mongoose": "^3.1.1",
+        "egg-scripts": "^2.10.0",
+        "egg-view-ejs": "^2.0.0"
+    },
+    "devDependencies": {
+        "egg-bin": "^4.9.0"
+    }
+}

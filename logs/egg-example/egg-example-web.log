@@ -1,0 +1,21 @@
+2018-11-13 15:29:20,937 WARN 16364 [-/127.0.0.1/-/6ms GET /iqiyi] nodejs.PreconditionFailedError: Precondition Failed
+    at Object.throw (D:\H5project\2018\eggDemo2\egg-example\node_modules\koa\lib\context.js:97:11)
+    at msgListController.iqiyi (D:\H5project\2018\eggDemo2\egg-example\app\controller\msgList.js:9:18)
+    at Object.callFn (D:\H5project\2018\eggDemo2\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\H5project\2018\eggDemo2\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5project\2018\eggDemo2\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\H5project\2018\eggDemo2\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\H5project\2018\eggDemo2\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5project\2018\eggDemo2\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\H5project\2018\eggDemo2\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\H5project\2018\eggDemo2\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\H5project\2018\eggDemo2\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\H5project\2018\eggDemo2\egg-example\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\H5project\2018\eggDemo2\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\H5project\2018\eggDemo2\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\H5project\2018\eggDemo2\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\H5project\2018\eggDemo2\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+message: "Precondition Failed"
+pid: 16364
+hostname: xiezg-pc
+
