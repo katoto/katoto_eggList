@@ -20,6 +20,9 @@ class msgListController extends Controller {
         }
         ctx.body = data
     }
+    async index() {
+        this.ctx.body = "Hello world egg start"
+    }
 }
 
 module.exports = msgListController

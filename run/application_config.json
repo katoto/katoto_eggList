@@ -218,12 +218,12 @@
     "hostHeaders": "",
     "pkg": {
       "name": "egg-example",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "",
       "main": "egg-example",
       "scripts": {
         "dev": "egg-bin dev",
-        "start": "egg-scripts start --daemon --title=egg-server-showcase",
+        "start": "egg-scripts start --daemon",
         "stop": "egg-scripts stop"
       },
       "keywords": [],
@@ -330,8 +330,8 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 4561,
-        "hostname": "127.0.0.1"
+        "port": 7001,
+        "hostname": ""
       }
     },
     "clusterClient": {

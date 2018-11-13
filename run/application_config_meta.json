@@ -22,13 +22,6 @@
     "app": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-mongoose\\config\\config.default.js",
     "agent": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-mongoose\\config\\config.default.js"
   },
-  "cluster": {
-    "listen": {
-      "port": "D:\\H5project\\2018\\katoto_eggList\\config\\config.default.js",
-      "hostname": "D:\\H5project\\2018\\katoto_eggList\\config\\config.default.js",
-      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js"
-    }
-  },
   "session": {
     "maxAge": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-session\\config\\config.default.js",
     "key": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-session\\config\\config.default.js",
@@ -272,6 +265,13 @@
   },
   "coreMiddleware": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
   "workerStartTimeout": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
   "clusterClient": {
     "maxWaitTime": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
     "responseTimeout": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js"
