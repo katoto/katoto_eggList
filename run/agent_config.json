@@ -7,13 +7,15 @@
       "encrypt": true
     },
     "security": {
-      "domainWhiteList": [],
+      "domainWhiteList": [
+        "http://192.168.1.101:7001:7001"
+      ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
-        "enable": true,
+        "enable": false,
         "useSession": false,
-        "ignoreJSON": false,
+        "ignoreJSON": true,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
@@ -164,6 +166,9 @@
       "app": true,
       "agent": false
     },
+    "cors": {
+      "allowMethods": "GET, HEAD, PUT, POST, DELETE, PATCH, OPTIONS"
+    },
     "env": "local",
     "name": "egg-example",
     "keys": "<String len: 30>",
@@ -186,6 +191,7 @@
       "license": "ISC",
       "dependencies": {
         "egg": "^2.13.0",
+        "egg-cors": "^2.1.1",
         "egg-mongoose": "^3.1.1",
         "egg-scripts": "^2.10.0",
         "egg-view-ejs": "^2.0.0"
@@ -463,6 +469,17 @@
       "from": "D:\\H5project\\2018\\katoto_eggList\\config\\plugin.js",
       "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-mongoose",
       "version": "3.1.1"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "D:\\H5project\\2018\\katoto_eggList\\config\\plugin.js",
+      "path": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-cors",
+      "version": "2.1.1"
     }
   }
 }

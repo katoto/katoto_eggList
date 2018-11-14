@@ -22,26 +22,20 @@
     "app": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-mongoose\\config\\config.default.js",
     "agent": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-mongoose\\config\\config.default.js"
   },
-  "session": {
-    "maxAge": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-session\\config\\config.default.js"
-  },
   "security": {
-    "domainWhiteList": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js",
+      "enable": "D:\\H5project\\2018\\katoto_eggList\\config\\config.default.js",
+      "ignoreJSON": "D:\\H5project\\2018\\katoto_eggList\\config\\config.default.js",
       "useSession": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js",
       "cookieName": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js",
       "sessionName": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js",
       "headerName": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js",
       "bodyName": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js",
       "queryName": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js"
     },
+    "domainWhiteList": "D:\\H5project\\2018\\katoto_eggList\\config\\config.default.js",
+    "protocolWhiteList": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
       "enable": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js",
       "value": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js"
@@ -79,6 +73,16 @@
       "ipBlackList": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js",
       "checkAddress": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js"
     }
+  },
+  "cors": {
+    "origin": "D:\\H5project\\2018\\katoto_eggList\\config\\config.default.js",
+    "allowMethods": "D:\\H5project\\2018\\katoto_eggList\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
     "shtml": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg-security\\config\\config.default.js"
@@ -182,6 +186,7 @@
     "license": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
       "egg": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
       "egg-mongoose": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js",
       "egg-view-ejs": "D:\\H5project\\2018\\katoto_eggList\\node_modules\\egg\\config\\config.default.js"

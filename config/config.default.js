@@ -19,6 +19,19 @@ module.exports = appInfo => {
             }
         }
     }
+    config.security = {
+        csrf: {
+            enable: false,
+            ignoreJSON: true
+        },
+        domainWhiteList: ['http://localhost:7001']
+    }
+    config.cors = {
+        origin: '*',
+        allowMethods: "GET, HEAD, PUT, POST, DELETE, PATCH, OPTIONS"
+    }
+    return config
+}
     // config.cluster = {
     //     // 设置服务端口  走默认7001 就xing
     //     listen: {
@@ -26,6 +39,3 @@ module.exports = appInfo => {
     //         hostname: "127.0.0.1"
     //     }
     // }
-    return config
-
-}
