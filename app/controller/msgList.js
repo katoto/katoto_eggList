@@ -18,6 +18,19 @@ class msgListController extends Controller {
         }
         ctx.body = data
     }
+    async iqiyiTvlist() {
+        // 请求爱奇艺电视剧列表
+        const ctx = this.ctx;
+        let tvMsg = await ctx.service.msgList.iqiyiTvlist()
+        let data = {
+            data: {
+                tvMsg,
+            },
+            status: "100",
+            message: "ok"
+        }
+        ctx.body = data
+    }
     async iqiyiTvMsg() {
         // 请求爱奇艺数据
         const ctx = this.ctx;

@@ -32,6 +32,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/iqiyiTvlist",
+    "regexp": "/^\\/iqiyiTvlist(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/iqiyiTvMsg",
     "regexp": "/^\\/iqiyiTvMsg(?:\\/(?=$))?$/",
     "stack": [

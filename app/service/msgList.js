@@ -12,6 +12,10 @@ class msgListService extends Service {
         const ctx = this.ctx;
         return ctx.model.MsgListMusic.find()
     }
+    async iqiyiTvlist() {
+        const ctx = this.ctx;
+        return ctx.model.IqiyiTvlist.find()
+    }
     async iqiyi_tvMsg() {
         const ctx = this.ctx;
         const queryObj = ctx.query
