@@ -6,8 +6,6 @@ const Controller = require('egg').Controller;
 class msgListController extends Controller {
     async iqiyi() {
         const ctx = this.ctx;
-        // ctx.throw(412)
-        // ctx.set('Access-Control-Allow-Origin', '*')
         let movie = await ctx.service.msgList.iqiyi_movie()
         let music = await ctx.service.msgList.iqiyi_music()
         let data = {
