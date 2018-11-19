@@ -20,6 +20,21 @@ class msgListController extends Controller {
         }
         ctx.body = data
     }
+    async iqiyiTvMsg() {
+        console.log(11)
+        const ctx = this.ctx;
+        let tvMsg = await ctx.service.msgList.iqiyi_music()
+
+        let data = {
+            data: {
+                tvMsg
+            },
+            status: "100",
+            message: "ok"
+        }
+
+        ctx.body = data
+    }
     async index() {
         this.ctx.body = "Hello world egg start"
     }
