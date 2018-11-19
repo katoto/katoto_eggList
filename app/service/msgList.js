@@ -15,12 +15,13 @@ class msgListService extends Service {
     async iqiyi_tvMsg() {
         const ctx = this.ctx;
         const queryObj = ctx.query
-
-        console.log(queryObj)
-        console.log(queryObj)
-        console.log(queryObj)
-
-        return []
+        let result = null;
+        if (queryObj.tvid) {
+            if (!queryObj.pageno) queryObj.pageno = 1
+            result = await this.ctx.curl(`http://cache.video.iqiyi.com/jp/avlist/${queryObj.tvid}/${queryObj.pageno}/50/?albumId=${queryObj.tvid}&pageNum=50&pageNo=${queryObj.pageno}`, { dataType: 'text' });
+            result = result.data.replace('var tvInfoJs=', ' ')
+        }
+        return JSON.parse(result)
     }
 }
 

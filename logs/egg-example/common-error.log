@@ -136,3 +136,237 @@ name: "unhandledExceptionError"
 pid: 19176
 hostname: xiezg-pc
 
+2018-11-19 21:53:30,235 ERROR 1200 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1200
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:06:08,494 ERROR 11996 [-/127.0.0.1/-/191ms GET /iqiyiTvMsg?tvid=216274801] nodejs.ReferenceError: decoder is not defined
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:22:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 11996
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:07:58,206 ERROR 10224 [-/127.0.0.1/-/162ms GET /iqiyiTvMsg?tvid=216274801] nodejs.ReferenceError: arrayBufferToString is not defined
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:22:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10224
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:08:10,828 ERROR 2396 [-/127.0.0.1/-/166ms GET /iqiyiTvMsg?tvid=216274801] nodejs.ReferenceError: arrayBufferToString is not defined
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:22:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2396
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:08:24,119 ERROR 15392 [-/127.0.0.1/-/201ms GET /iqiyiTvMsg?tvid=216274801] nodejs.ReferenceError: Blob is not defined
+    at msgListService.arrayBufferToString (D:\H5project\2018\katoto_eggList\app\service\msgList.js:27:20)
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:22:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 15392
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:11:05,050 ERROR 1316 [-/127.0.0.1/-/184ms GET /iqiyiTvMsg?tvid=216274801] nodejs.ReferenceError: arrayBufferToString is not defined
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:22:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 1316
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:11:44,347 ERROR 12848 [-/127.0.0.1/-/177ms GET /iqiyiTvMsg?tvid=216274801] nodejs.TypeError: result.data.toSting is not a function
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:23:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12848
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:11:46,907 ERROR 1200 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1200
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:12:05,665 ERROR 16400 [-/127.0.0.1/-/224ms GET /iqiyiTvMsg?tvid=216274801] nodejs.TypeError: result.data.toSting is not a function
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:23:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 16400
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:15:38,082 ERROR 17256 [-/127.0.0.1/-/15ms GET /iqiyiTvMsg?tvid=216274801] nodejs.ReferenceError: text is not defined
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:20:204)
+    at msgListController.iqiyiTvMsg (D:\H5project\2018\katoto_eggList\app\controller\msgList.js:24:47)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\H5project\2018\katoto_eggList\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 17256
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:15:47,079 ERROR 16532 [-/127.0.0.1/-/31ms GET /iqiyiTvMsg?tvid=216274801] nodejs.ReferenceError: text is not defined
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:20:204)
+    at msgListController.iqiyiTvMsg (D:\H5project\2018\katoto_eggList\app\controller\msgList.js:24:47)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\H5project\2018\katoto_eggList\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at D:\H5project\2018\katoto_eggList\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\H5project\2018\katoto_eggList\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\H5project\2018\katoto_eggList\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 16532
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:16:43,590 ERROR 7556 [-/127.0.0.1/-/169ms GET /iqiyiTvMsg?tvid=216274801] nodejs.TypeError: result.replace is not a function
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:21:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7556
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:16:44,447 ERROR 1200 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1200
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:18:16,869 ERROR 13064 [-/127.0.0.1/-/170ms GET /iqiyiTvMsg?tvid=216274801] nodejs.TypeError: result.replace is not a function
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:21:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 13064
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:18:28,435 ERROR 16024 [-/127.0.0.1/-/164ms GET /iqiyiTvMsg?tvid=216274801] nodejs.TypeError: Assignment to constant variable.
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:21:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 16024
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:18:58,013 ERROR 16584 [-/127.0.0.1/-/164ms GET /iqiyiTvMsg?tvid=216274801] nodejs.TypeError: Assignment to constant variable.
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:22:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 16584
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:19:06,101 ERROR 16984 [-/127.0.0.1/-/181ms GET /iqiyiTvMsg?tvid=216274801] nodejs.TypeError: Assignment to constant variable.
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:23:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 16984
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:19:38,509 ERROR 1200 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1200
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:19:53,216 ERROR 17168 [-/127.0.0.1/-/203ms GET /iqiyiTvMsg?tvid=216274801] nodejs.TypeError: Assignment to constant variable.
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:23:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17168
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:21:35,759 ERROR 1200 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1200
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:23:03,488 ERROR 17244 [-/127.0.0.1/-/174ms GET /iqiyiTvMsg?tvid=216274801] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:24:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17244
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:23:17,053 ERROR 17244 [-/127.0.0.1/-/131ms GET /iqiyiTvMsg?tvid=216274801] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:24:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17244
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:23:25,183 ERROR 16204 [-/127.0.0.1/-/163ms GET /iqiyiTvMsg?tvid=216274801] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at msgListService.iqiyi_tvMsg (D:\H5project\2018\katoto_eggList\app\service\msgList.js:24:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 16204
+hostname: LAPTOP-236D5NH2
+
+2018-11-19 22:25:09,992 ERROR 1200 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1200
+hostname: LAPTOP-236D5NH2
+

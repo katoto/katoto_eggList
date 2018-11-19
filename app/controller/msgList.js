@@ -19,18 +19,17 @@ class msgListController extends Controller {
         ctx.body = data
     }
     async iqiyiTvMsg() {
-        console.log(11)
+        // 请求爱奇艺数据
         const ctx = this.ctx;
-        let tvMsg = await ctx.service.msgList.iqiyi_music()
-
+        let tvMsg = await ctx.service.msgList.iqiyi_tvMsg()
         let data = {
             data: {
-                tvMsg
+                tvMsg,
+                tvid: this.ctx.query.tvid
             },
             status: "100",
             message: "ok"
         }
-
         ctx.body = data
     }
     async index() {
