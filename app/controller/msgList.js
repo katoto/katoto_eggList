@@ -21,10 +21,25 @@ class msgListController extends Controller {
     async iqiyiTvlist() {
         // 请求爱奇艺电视剧列表
         const ctx = this.ctx;
-        let tvMsg = await ctx.service.msgList.iqiyiTvlist()
+        let tvMsg = await ctx.service.msgList.iqiyiTvlist();
+        let queryObj = ctx.query;
+        let totalNum = await ctx.model.IqiyiTvlist.find({}).count();
+        let pagesize = queryObj.pagesize;
+        let pageno = queryObj.pageno;
+        if (!pagesize) pagesize = 10;
+        if (!pageno) pageno = 1;
+        if (typeof pagesize === 'string') {
+            pagesize = Number(pagesize);
+        }
+        if (typeof pageno === 'string') {
+            pageno = Number(pageno);
+        }
         let data = {
             data: {
                 tvMsg,
+                totalPages: Math.ceil(totalNum / pagesize),
+                pagesize: pagesize,
+                pageno: pageno,
             },
             status: "100",
             message: "ok"
@@ -46,7 +61,7 @@ class msgListController extends Controller {
         ctx.body = data
     }
     async index() {
-        this.ctx.body = "Hello world egg start"
+        this.ctx.body = "Hello world egg start, hello world"
     }
 }
 

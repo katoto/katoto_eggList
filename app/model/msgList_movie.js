@@ -3,8 +3,12 @@ module.exports = app => {
     const mongoose = app.mongoose;
     const Schema = mongoose.Schema;
     const msgListSchema = new Schema({
+        _id: { type: String },
+        picLink: { type: String },
+        pic: { type: String },
+        desc: { type: String },
+        score: { type: String },
         name: { type: String },
-        url: { type: String }
     })
     return mongoose.model('MsgListMovie', msgListSchema, 'movie');
 }
