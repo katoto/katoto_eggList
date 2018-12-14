@@ -1,7 +1,7 @@
 {
     "name": "egg-example",
     "version": "1.0.1",
-    "description": "",
+    "description": "egg mongoose server",
     "main": "egg-example",
     "scripts": {
         "dev": "egg-bin dev",
