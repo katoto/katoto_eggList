@@ -26,8 +26,8 @@ class msgListService extends Service {
             pageno = Number(pageno)
         }
         return ctx.model.IqiyiTvlist.find().skip((pageno - 1) * pagesize).limit(pagesize)
-        // 总的条数
-        // return ctx.model.IqiyiTvlist.find()
+            // 总的条数
+            // return ctx.model.IqiyiTvlist.find()
     }
     async iqiyi_tvMsg() {
         const ctx = this.ctx;
@@ -39,6 +39,23 @@ class msgListService extends Service {
             result = result.data.replace('var tvInfoJs=', ' ')
         }
         return JSON.parse(result)
+    }
+    async educlass1() {
+        const ctx = this.ctx;
+        let queryObj = ctx.query
+        let pagesize = queryObj.pagesize
+        let pageno = queryObj.pageno
+        if (!pagesize) pagesize = 10
+        if (!pageno) pageno = 1
+        if (typeof pagesize === 'string') {
+            pagesize = Number(pagesize)
+        }
+        if (typeof pageno === 'string') {
+            pageno = Number(pageno)
+        }
+        return ctx.model.IqiyiTvlist.find().skip((pageno - 1) * pagesize).limit(pagesize)
+            // 总的条数
+            // return ctx.model.IqiyiTvlist.find()
     }
 }
 
