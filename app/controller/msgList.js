@@ -65,12 +65,12 @@ class msgListController extends Controller {
     }
     async educlassmsg() {
         // 请求edu 班级列表
-        this.ctx.body = "Hello world egg start, hello world"
-
         const ctx = this.ctx;
-        let tvMsg = await ctx.service.msgList.iqiyiTvlist();
+        let msg = await ctx.service.msgList.educlass();
         let queryObj = ctx.query;
-        let totalNum = await ctx.model.IqiyiTvlist.find({}).count();
+        let searchLoc = 'Edu' + queryObj.className + queryObj.xueke
+        if (!searchLoc) searchLoc = 'EduClass1Shuxue'
+        let totalNum = await ctx.model.Educlass[searchLoc].find({}).count();
         let pagesize = queryObj.pagesize;
         let pageno = queryObj.pageno;
         if (!pagesize) pagesize = 10;
@@ -83,7 +83,7 @@ class msgListController extends Controller {
         }
         let data = {
             data: {
-                tvMsg,
+                msg,
                 totalPages: Math.ceil(totalNum / pagesize),
                 pagesize: pagesize,
                 pageno: pageno,

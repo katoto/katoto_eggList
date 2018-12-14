@@ -26,8 +26,8 @@ class msgListService extends Service {
             pageno = Number(pageno)
         }
         return ctx.model.IqiyiTvlist.find().skip((pageno - 1) * pagesize).limit(pagesize)
-            // 总的条数
-            // return ctx.model.IqiyiTvlist.find()
+        // 总的条数
+        // return ctx.model.IqiyiTvlist.find()
     }
     async iqiyi_tvMsg() {
         const ctx = this.ctx;
@@ -40,7 +40,7 @@ class msgListService extends Service {
         }
         return JSON.parse(result)
     }
-    async educlass1() {
+    async educlass() {
         const ctx = this.ctx;
         let queryObj = ctx.query
         let pagesize = queryObj.pagesize
@@ -53,9 +53,32 @@ class msgListService extends Service {
         if (typeof pageno === 'string') {
             pageno = Number(pageno)
         }
-        return ctx.model.IqiyiTvlist.find().skip((pageno - 1) * pagesize).limit(pagesize)
-            // 总的条数
-            // return ctx.model.IqiyiTvlist.find()
+        let searchLoc = 'Edu' + queryObj.className + queryObj.xueke
+        if (!searchLoc) searchLoc = 'EduClass1Shuxue'
+        switch (searchLoc) {
+            case 'EduClass1Shuxue':
+            case 'EduClass1Yingyu':
+            case 'EduClass1Yuwen':
+            case 'EduClass2Shuxue':
+            case 'EduClass2Yingyu':
+            case 'EduClass2Yuwen':
+            case 'EduClass3Shuxue':
+            case 'EduClass3Yingyu':
+            case 'EduClass3Yuwen':
+            case 'EduClass4Shuxue':
+            case 'EduClass4Yingyu':
+            case 'EduClass4Yuwen':
+            case 'EduClass5Shuxue':
+            case 'EduClass5Yingyu':
+            case 'EduClass5Yuwen':
+            case 'EduClass6Shuxue':
+            case 'EduClass6Yingyu':
+            case 'EduClass6Yuwen':
+                return ctx.model.Educlass[searchLoc].find().skip((pageno - 1) * pagesize).limit(pagesize);
+        }
+        // return ctx.model.IqiyiTvlist.find().skip((pageno - 1) * pagesize).limit(pagesize)
+        // 总的条数
+        // return ctx.model.IqiyiTvlist.find()
     }
 }
 

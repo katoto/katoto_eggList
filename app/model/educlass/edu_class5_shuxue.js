@@ -8,5 +8,5 @@ module.exports = app => {
         titleName: { type: String },
         intro: { type: String }
     })
-    return mongoose.model('eduClass5Shuxue', msgListSchema, 'edu_class5_shuxu');
+    return mongoose.model('EduClass5Shuxue', msgListSchema, 'edu_class5_shuxue');
 }
