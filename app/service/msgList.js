@@ -80,6 +80,21 @@ class msgListService extends Service {
         // 总的条数
         // return ctx.model.IqiyiTvlist.find()
     }
+    async eduzixun() {
+        const ctx = this.ctx;
+        let queryObj = ctx.query
+        let pagesize = queryObj.pagesize
+        let pageno = queryObj.pageno
+        if (!pagesize) pagesize = 10
+        if (!pageno) pageno = 1
+        if (typeof pagesize === 'string') {
+            pagesize = Number(pagesize)
+        }
+        if (typeof pageno === 'string') {
+            pageno = Number(pageno)
+        }
+        return ctx.model.EduZixun.find().skip((pageno - 1) * pagesize).limit(pagesize)
+    }
 }
 
 module.exports = msgListService;

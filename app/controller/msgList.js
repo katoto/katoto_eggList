@@ -46,6 +46,34 @@ class msgListController extends Controller {
         }
         ctx.body = data
     }
+    async eduZixun() {
+        // 请求edu 资讯列表
+        const ctx = this.ctx;
+        let msg = await ctx.service.msgList.eduzixun();
+        let queryObj = ctx.query;
+        let totalNum = await ctx.model.EduZixun.find({}).count();
+        let pagesize = queryObj.pagesize;
+        let pageno = queryObj.pageno;
+        if (!pagesize) pagesize = 10;
+        if (!pageno) pageno = 1;
+        if (typeof pagesize === 'string') {
+            pagesize = Number(pagesize);
+        }
+        if (typeof pageno === 'string') {
+            pageno = Number(pageno);
+        }
+        let data = {
+            data: {
+                msg,
+                totalPages: Math.ceil(totalNum / pagesize),
+                pagesize: pagesize,
+                pageno: pageno,
+            },
+            status: "100",
+            message: "ok"
+        }
+        ctx.body = data
+    }
     async iqiyiTvMsg() {
         // 请求爱奇艺数据
         const ctx = this.ctx;
