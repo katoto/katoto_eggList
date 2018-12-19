@@ -18,6 +18,34 @@ class msgListController extends Controller {
         }
         ctx.body = data
     }
+    async iqiyiMovie() {
+        // 请求爱奇艺电视剧列表
+        const ctx = this.ctx;
+        let movieMsg = await ctx.service.msgList.iqiyi_movie();
+        let queryObj = ctx.query;
+        let totalNum = await ctx.model.iqiyi_movie.find({}).count();
+        let pagesize = queryObj.pagesize;
+        let pageno = queryObj.pageno;
+        if (!pagesize) pagesize = 10;
+        if (!pageno) pageno = 1;
+        if (typeof pagesize === 'string') {
+            pagesize = Number(pagesize);
+        }
+        if (typeof pageno === 'string') {
+            pageno = Number(pageno);
+        }
+        let data = {
+            data: {
+                movieMsg,
+                totalPages: Math.ceil(totalNum / pagesize),
+                pagesize: pagesize,
+                pageno: pageno,
+            },
+            status: "100",
+            message: "ok"
+        }
+        ctx.body = data
+    }
     async iqiyiTvlist() {
         // 请求爱奇艺电视剧列表
         const ctx = this.ctx;
