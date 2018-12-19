@@ -4,10 +4,9 @@ module.exports = app => {
     const Schema = mongoose.Schema;
     const msgListSchema = new Schema({
         _id: { type: String },
-        picLink: { type: String },
-        pic: { type: String },
-        tvLenDesc: { type: String },
-        name: { type: String },
+        titleLink: { type: String },
+        titleName: { type: String },
+        intro: { type: String }
     })
-    return mongoose.model('IqiyiTvlist', msgListSchema, 'tvlist');
+    return mongoose.model('EduClass2Yuwen', msgListSchema, 'edu_class2_yuwen');
 }

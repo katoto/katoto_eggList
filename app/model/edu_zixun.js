@@ -6,7 +6,8 @@ module.exports = app => {
         _id: { type: String },
         titleLink: { type: String },
         titleName: { type: String },
-        intro: { type: String }
+        titletime: { type: String },
     })
-    return mongoose.model('EduClass1Shuxue', msgListSchema, 'edu_class1_shuxue');
+    return mongoose.model('ZiXun', msgListSchema, 'edu_zixun');
 }
+
