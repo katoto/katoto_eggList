@@ -11,3 +11,8 @@ http://192.168.50.47:7001/iqiyiTvlist?pageno=28&pagesize=10
 
 年级接口
 http://127.0.0.1:7001/educlassmsg?pageno=2&pagesize=3&className=Class6&xueke=Yuwen
+
+iqiyiMovie 电影分页
+http://127.0.0.1:7001/iqiyiMovie?pageno=3&pagesize=3
+iqiyiTvlist 电视剧分页
+http://127.0.0.1:7001/iqiyiTvlist?pageno=2&pagesize=2

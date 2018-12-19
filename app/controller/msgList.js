@@ -23,7 +23,7 @@ class msgListController extends Controller {
         const ctx = this.ctx;
         let movieMsg = await ctx.service.msgList.iqiyi_movie();
         let queryObj = ctx.query;
-        let totalNum = await ctx.model.iqiyi_movie.find({}).count();
+        let totalNum = await ctx.model.MsgListMovie.find({}).count();
         let pagesize = queryObj.pagesize;
         let pageno = queryObj.pageno;
         if (!pagesize) pagesize = 10;
