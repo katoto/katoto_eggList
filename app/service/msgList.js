@@ -11,7 +11,7 @@ class msgListService extends Service {
         let queryObj = ctx.query
         let pagesize = queryObj.pagesize
         let pageno = queryObj.pageno
-        if (!pagesize) pagesize = 10
+        if (!pagesize) pagesize = 12
         if (!pageno) pageno = 1
         if (typeof pagesize === 'string') {
             pagesize = Number(pagesize)
@@ -20,10 +20,6 @@ class msgListService extends Service {
             pageno = Number(pageno)
         }
         return ctx.model.MsgListMovie.find().skip((pageno - 1) * pagesize).limit(pagesize)
-    }
-    async iqiyi_music() {
-        const ctx = this.ctx;
-        return ctx.model.MsgListMusic.find()
     }
     async iqiyiTvlist() {
         const ctx = this.ctx;
@@ -105,6 +101,14 @@ class msgListService extends Service {
             pageno = Number(pageno)
         }
         return ctx.model.EduZixun.find().skip((pageno - 1) * pagesize).limit(pagesize)
+    }
+    async edumsg() {
+        // 热点详情页
+        const ctx = this.ctx;
+        let queryObj = ctx.query
+        let sealine = queryObj.id
+        if (!sealine) sealine = "201811/10825052"
+        return ctx.model.EduZixun.find({ "_id": sealine })
     }
 }
 

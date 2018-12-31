@@ -7,10 +7,8 @@ class msgListController extends Controller {
     async iqiyi() {
         const ctx = this.ctx;
         let movie = await ctx.service.msgList.iqiyi_movie()
-        let music = await ctx.service.msgList.iqiyi_music()
         let data = {
             data: {
-                music,
                 movie
             },
             status: "100",
@@ -68,6 +66,19 @@ class msgListController extends Controller {
                 totalPages: Math.ceil(totalNum / pagesize),
                 pagesize: pagesize,
                 pageno: pageno,
+            },
+            status: "100",
+            message: "ok"
+        }
+        ctx.body = data
+    }
+    async edumsg() {
+        // 请求edu 资讯列表
+        const ctx = this.ctx;
+        let msg = await ctx.service.msgList.edumsg();
+        let data = {
+            data: {
+                msg: msg[0]
             },
             status: "100",
             message: "ok"

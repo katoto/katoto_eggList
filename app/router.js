@@ -8,4 +8,5 @@ module.exports = app => {
     router.get('/iqiyiTvMsg', controller.msgList.iqiyiTvMsg);
     router.get('/educlassmsg', controller.msgList.educlassmsg)
     router.get('/eduZixun', controller.msgList.eduZixun)
+    router.get('/edumsg', controller.msgList.edumsg)
 };
