@@ -73,9 +73,22 @@ class msgListController extends Controller {
         ctx.body = data
     }
     async edumsg() {
-        // 请求edu 资讯列表
+        // 请求edu 资讯详情列表
         const ctx = this.ctx;
         let msg = await ctx.service.msgList.edumsg();
+        let data = {
+            data: {
+                msg: msg[0]
+            },
+            status: "100",
+            message: "ok"
+        }
+        ctx.body = data
+    }
+    async artdetail() {
+        // 请求edu 资讯详情列表
+        const ctx = this.ctx;
+        let msg = await ctx.service.msgList.artdetail();
         let data = {
             data: {
                 msg: msg[0]

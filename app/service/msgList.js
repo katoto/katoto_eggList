@@ -87,6 +87,17 @@ class msgListService extends Service {
         // 总的条数
         // return ctx.model.IqiyiTvlist.find()
     }
+    async artdetail() {
+        // 热点详情页
+        // http://127.0.0.1:7001/artdetail?className=Class1&xueke=Shuxue&id=20180504/8565
+        const ctx = this.ctx;
+        let queryObj = ctx.query
+        let searchLoc = 'Edu' + queryObj.className + queryObj.xueke
+        if (!searchLoc) searchLoc = 'EduClass1Shuxue'
+        let sealine = queryObj.id
+        if (!sealine) sealine = "20180504/8565"
+        return ctx.model.Educlass[searchLoc].find({ "_id": sealine })
+    }
     async eduzixun() {
         const ctx = this.ctx;
         let queryObj = ctx.query
