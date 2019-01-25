@@ -12,4 +12,7 @@ module.exports = app => {
     router.get('/artdetail', controller.msgList.artdetail)
     router.get('/eduZixun', controller.msgList.eduZixun)
     router.get('/edumsg', controller.msgList.edumsg)
+    router.get('/tuzhailist', controller.msgList.tuzhailist)
+    router.get('/tuzhaimsg', controller.msgList.tuzhaimsg)
+    router.get('/kutulist', controller.msgList.kutulist)
 };

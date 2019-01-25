@@ -121,6 +121,45 @@ class msgListService extends Service {
         if (!sealine) sealine = "201811/10825052"
         return ctx.model.EduZixun.find({ "_id": sealine })
     }
+    async tuzhailist() {
+        const ctx = this.ctx;
+        let queryObj = ctx.query
+        let pagesize = queryObj.pagesize
+        let pageno = queryObj.pageno
+        if (!pagesize) pagesize = 10
+        if (!pageno) pageno = 1
+        if (typeof pagesize === 'string') {
+            pagesize = Number(pagesize)
+        }
+        if (typeof pageno === 'string') {
+            pageno = Number(pageno)
+        }
+        return ctx.model.NianzhaiList.find().skip((pageno - 1) * pagesize).limit(pagesize)
+    }
+    async tuzhaimsg() {
+        // 图摘详情页
+        const ctx = this.ctx;
+        let queryObj = ctx.query
+        let sealine = queryObj.id
+        if (!sealine) sealine = "/qing-nian-tu-zhai-0831/"
+        return ctx.model.NianzhaiListmsg.find({ "_id": sealine })
+    }
+    async kutulist() {
+        // 酷图列表
+        const ctx = this.ctx;
+        let queryObj = ctx.query
+        let pagesize = queryObj.pagesize
+        let pageno = queryObj.pageno
+        if (!pagesize) pagesize = 10
+        if (!pageno) pageno = 1
+        if (typeof pagesize === 'string') {
+            pagesize = Number(pagesize)
+        }
+        if (typeof pageno === 'string') {
+            pageno = Number(pageno)
+        }
+        return ctx.model.Kutu.find().skip((pageno - 1) * pagesize).limit(pagesize)
+    }
 }
 
 module.exports = msgListService;
