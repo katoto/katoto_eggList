@@ -136,6 +136,14 @@ class msgListService extends Service {
         }
         return ctx.model.NianzhaiList.find().skip((pageno - 1) * pagesize).limit(pagesize)
     }
+    async educlassmsg() {
+        // 班级详情页
+        const ctx = this.ctx;
+        let queryObj = ctx.query
+        let sealine = queryObj.id
+        if (!sealine) sealine = "20170818/8472"
+        return ctx.model.EduClassMsg.find({ "_id": sealine })
+    }
     async tuzhaimsg() {
         // 图摘详情页
         const ctx = this.ctx;
