@@ -1,6 +1,14 @@
 // 是用来分配接口路由的文件
-// 年级详情  artdetail
-// 资讯详情 edumsg
+// 电影 iqiyiMovie
+// 电视剧列表 iqiyiTvlist
+// 电视剧详情 iqiyiTvMsg
+// 小学年级列表 educlassmsg 
+// 小学年级详情 artdetail
+// 每日资讯列表 eduZixun
+// 每日资讯详情 edumsg
+// 图摘列表 tuzhailist
+// 图摘详情 tuzhaimsg
+// 酷图列表& 详情 kutulist
 module.exports = app => {
     const { router, controller } = app;
     router.get('/', controller.msgList.index);
