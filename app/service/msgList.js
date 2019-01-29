@@ -141,7 +141,7 @@ class msgListService extends Service {
         if (typeof pageno === 'string') {
             pageno = Number(pageno)
         }
-        return ctx.model.NianzhaiList.find().skip((pageno - 1) * pagesize).limit(pagesize)
+        return ctx.model.NianzhaiList.find().sort({ sortTime: -1 }).skip((pageno - 1) * pagesize).limit(pagesize)
     }
     async educlassmsg() {
         // 班级详情页
