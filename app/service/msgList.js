@@ -118,7 +118,8 @@ class msgListService extends Service {
         if (typeof pageno === 'string') {
             pageno = Number(pageno)
         }
-        return ctx.model.EduZixun.find().skip((pageno - 1) * pagesize).limit(pagesize)
+        // return ctx.model.EduZixun.find().skip((pageno - 1) * pagesize).limit(pagesize)
+        return ctx.model.EduZixun.find().sort({titletime: -1 }).skip((pageno - 1) * pagesize).limit(pagesize)
     }
     async edumsg() {
         // 热点详情页
