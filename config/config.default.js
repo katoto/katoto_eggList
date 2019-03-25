@@ -11,7 +11,7 @@ module.exports = appInfo => {
     config.middleware = []
 
     config.mongoose = {
-        url: process.env.EGG_MONGODB_URL || 'mongodb://47.96.234.59:27017/katoto',
+        url: process.env.EGG_MONGODB_URL || 'mongodb://47.96.234.59:2710/katoto',
         options: {
             server: {
                 poolSize: 20,
