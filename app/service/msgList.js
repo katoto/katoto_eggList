@@ -160,6 +160,29 @@ class msgListService extends Service {
         if (!sealine) sealine = "/qing-nian-tu-zhai-0831/"
         return ctx.model.NianzhaiListmsg.find({ "_id": sealine })
     }
+    async diagrammsg() {
+      // 图摘详情页
+      const ctx = this.ctx;
+      let queryObj = ctx.query
+      let sealine = queryObj.id
+      if (!sealine) sealine = "142898"
+      return ctx.model.DiagramMsg.find({ "_id": sealine })
+    } 
+    async diagram() {
+      const ctx = this.ctx;
+      let queryObj = ctx.query
+      let pagesize = queryObj.pagesize
+      let pageno = queryObj.pageno
+      if (!pagesize) pagesize = 10
+      if (!pageno) pageno = 1
+      if (typeof pagesize === 'string') {
+          pagesize = Number(pagesize)
+      }
+      if (typeof pageno === 'string') {
+          pageno = Number(pageno)
+      }
+      return ctx.model.Diagram.find().sort({ sortTime: -1 }).skip((pageno - 1) * pagesize).limit(pagesize)
+    }
     async kutulist() {
         // 酷图列表
         const ctx = this.ctx;

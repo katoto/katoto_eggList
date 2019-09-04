@@ -9,6 +9,8 @@
 // 图摘列表 tuzhailist
 // 图摘详情 tuzhaimsg
 // 酷图列表& 详情 kutulist
+// 打喷嚏列表 diagram
+// 打喷嚏详情 diagrammsg
 module.exports = app => {
     const { router, controller } = app;
     router.get('/', controller.msgList.index);
@@ -23,4 +25,6 @@ module.exports = app => {
     router.get('/tuzhailist', controller.msgList.tuzhailist)
     router.get('/tuzhaimsg', controller.msgList.tuzhaimsg)
     router.get('/kutulist', controller.msgList.kutulist)
+    router.get('/diagram', controller.msgList.diagram)
+    router.get('/diagrammsg', controller.msgList.diagrammsg)
 };

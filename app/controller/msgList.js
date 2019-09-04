@@ -215,6 +215,47 @@ class msgListController extends Controller {
         }
         ctx.body = data
     }
+    async diagrammsg() {
+        // 请求图摘 详情列表  http://www.dapenti.com/blog/more.asp?name=xilei&id=142898
+        const ctx = this.ctx;
+        let msg = await ctx.service.msgList.diagrammsg();
+        let data = {
+            data: {
+                msg: msg[0]
+            },
+            status: "100",
+            message: "ok"
+        }
+        ctx.body = data
+    }
+    async diagram() {
+        // 请求 详情列表  http://www.dapenti.com/blog/blog.asp?name=xilei&subjectid=70&page=1
+        const ctx = this.ctx;
+        let msg = await ctx.service.msgList.diagram();
+        let queryObj = ctx.query;
+        // let totalNum = await ctx.model.NianzhaiList.find({}).count();
+        let pagesize = queryObj.pagesize;
+        let pageno = queryObj.pageno;
+        if (!pagesize) pagesize = 10;
+        if (!pageno) pageno = 1;
+        if (typeof pagesize === 'string') {
+            pagesize = Number(pagesize);
+        }
+        if (typeof pageno === 'string') {
+            pageno = Number(pageno);
+        }
+        let data = {
+            data: {
+                msg,
+                // totalPages: Math.ceil(totalNum / pagesize),
+                pagesize: pagesize,
+                pageno: pageno,
+            },
+            status: "100",
+            message: "ok"
+        }
+        ctx.body = data
+    }
     async kutulist() {
         // 请求酷图 详情列表 http://www.win4000.com/
         const ctx = this.ctx;
